@@ -1,0 +1,25 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "scripts": {
+    },
+    "jest": {
+        "testTimeout": 900000,
+        "verbose": true,
+        "maxWorkers": 1,
+        "setupFiles": [],
+        "globals": {
+            "__DEV__": true
+        }
+    },
+    "license": "ISC",
+    "dependencies": {        
+        "chromedriver": "102.0.0",        
+        "dotenv": "9.0.0",        
+        "geckodriver": "^3.0.2",        
+        "jest": "27.0.6",        
+        "selenium-webdriver": "4.4.0"        
+    }
+}
